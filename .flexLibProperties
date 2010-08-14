@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="org.wmfc.componentes.containers.Window"/>
+    <classEntry path="org.wmfc.componentes.input.DateBox"/>
+    <classEntry path="org.wmfc.componentes.input.IValidate"/>
+    <classEntry path="org.wmfc.componentes.input.ComboBox"/>
+    <classEntry path="org.wmfc.componentes.Button"/>
+    <classEntry path="org.wmfc.componentes.Label"/>
+    <classEntry path="org.wmfc.componentes.cursor.Cursor"/>
+    <classEntry path="org.wmfc.componentes.containers.ContainerValidator"/>
+    <classEntry path="org.wmfc.componentes.containers.ValidationResult"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
