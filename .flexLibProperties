@@ -10,6 +10,11 @@
     <classEntry path="org.wmfc.componentes.cursor.Cursor"/>
     <classEntry path="org.wmfc.componentes.containers.ContainerValidator"/>
     <classEntry path="org.wmfc.componentes.containers.ValidationResult"/>
+    <classEntry path="org.wmfc.componentes.input.PassWordTextBox"/>
+    <classEntry path="org.wmfc.componentes.containers.Container"/>
+    <classEntry path="org.wmfc.componentes.Image"/>
+    <classEntry path="org.wmfc.componentes.input.CapsLockToolTip"/>
+    <classEntry path="org.wmfc.componentes.input.events.PassWordTextBoxEvent"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

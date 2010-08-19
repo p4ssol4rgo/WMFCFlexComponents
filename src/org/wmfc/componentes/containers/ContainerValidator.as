@@ -1,16 +1,13 @@
 package org.wmfc.componentes.containers
 {
-	import flash.display.DisplayObject;
-	
 	import mx.collections.ArrayCollection;
 	import mx.events.ValidationResultEvent;
 	
 	import org.wmfc.componentes.input.IValidate;
 	
-	import spark.components.Group;
 	import spark.events.ElementExistenceEvent;
 	
-	public class ContainerValidator extends Group
+	public class ContainerValidator extends Container
 	{
 		
 		protected var ivalidateComponents:ArrayCollection;
@@ -32,22 +29,6 @@ package org.wmfc.componentes.containers
 				ivalidateComponents.addItem(event.element);
 			}
 		}
-		
-/*		public override function addChild(child:DisplayObject):DisplayObject
-		{
-			
-			if(child is IValidate)
-			{
-				if(ivalidateComponents == null)
-				{
-					ivalidateComponents = new ArrayCollection();
-				}
-				
-				ivalidateComponents.addItem(child);
-			}
-			
-			return super.addChild(child);
-		}*/
 		
 		public function executeValidation():ValidationResult
 		{
