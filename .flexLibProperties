@@ -15,6 +15,12 @@
     <classEntry path="org.wmfc.componentes.Image"/>
     <classEntry path="org.wmfc.componentes.input.CapsLockToolTip"/>
     <classEntry path="org.wmfc.componentes.input.events.PassWordTextBoxEvent"/>
+    <classEntry path="org.wmfc.componentes.grid.DataGrid"/>
+    <classEntry path="org.wmfc.componentes.navigation.PaginationBarView"/>
+    <classEntry path="org.wmfc.componentes.input.NumericTextBox"/>
+    <classEntry path="org.wmfc.componentes.input.EmailTextBox"/>
+    <classEntry path="org.wmfc.componentes.navigation.PaginationBar"/>
+    <classEntry path="org.wmfc.componentes.navigation.events.PaginationEvent"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

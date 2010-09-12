@@ -6,6 +6,7 @@ package org.wmfc.componentes.input
 	import mx.validators.ValidationResult;
 	import mx.validators.Validator;
 	
+	import org.wmfc.utils.Resource;
 	import org.wmfc.utils.StringUtils;
 	
 	import spark.components.TextInput;
@@ -15,7 +16,7 @@ package org.wmfc.componentes.input
 		
 		protected var validatorRequired:Validator;
 		
-		private var _required:Boolean;
+		protected var _required:Boolean;
 		public function get required():Boolean
 		{
 			return _required;
@@ -30,7 +31,7 @@ package org.wmfc.componentes.input
 			}
 		}
 		
-		private var _requiredMessage:String = "This field can´t be empty!";
+		protected var _requiredMessage:String = Resource.getValue(Resource.INPUT_REQUIRED_FIELD);
 		public function get requiredMessage():String
 		{
 			return _requiredMessage;
@@ -42,7 +43,7 @@ package org.wmfc.componentes.input
 		}
 
 		
-		private var _trimText:Boolean = true;
+		protected var _trimText:Boolean = true;
 		public function get trimText():Boolean
 		{
 			return _trimText;
