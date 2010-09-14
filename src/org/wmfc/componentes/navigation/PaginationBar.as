@@ -6,7 +6,9 @@ package org.wmfc.componentes.navigation
 	
 	import org.wmfc.componentes.navigation.events.PaginationEvent;
 	import org.wmfc.utils.Resource;
-
+	
+	[Event(name="goToPage", type="org.wmfc.componentes.navigation.events.PaginationEvent")]
+	
 	public class PaginationBar extends PaginationBarView
 	{
 		public static const GO_TO_FIRST:int = 0;

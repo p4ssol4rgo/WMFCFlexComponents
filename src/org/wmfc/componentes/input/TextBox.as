@@ -2,8 +2,6 @@ package org.wmfc.componentes.input
 {
 	import mx.events.FlexEvent;
 	import mx.events.ValidationResultEvent;
-	import mx.utils.StringUtil;
-	import mx.validators.ValidationResult;
 	import mx.validators.Validator;
 	
 	import org.wmfc.utils.Resource;
@@ -31,17 +29,16 @@ package org.wmfc.componentes.input
 			}
 		}
 		
-		protected var _requiredMessage:String = Resource.getValue(Resource.INPUT_REQUIRED_FIELD);
-		public function get requiredMessage():String
+		protected var _requiredFieldError:String = Resource.getValue(Resource.INPUT_REQUIRED_FIELD_ERROR);
+		public function get requiredFieldError():String
 		{
-			return _requiredMessage;
+			return _requiredFieldError;
 		}
-
-		public function set requiredMessage(value:String):void
+		
+		public function set requiredFieldError(value:String):void
 		{
-			_requiredMessage = value;
+			_requiredFieldError = value;
 		}
-
 		
 		protected var _trimText:Boolean = true;
 		public function get trimText():Boolean
@@ -77,7 +74,7 @@ package org.wmfc.componentes.input
 		public function validate():ValidationResultEvent {
 			if(validatorRequired == null){
 				validatorRequired = new Validator();
-				validatorRequired.requiredFieldError = _requiredMessage;
+				validatorRequired.requiredFieldError = _requiredFieldError;
 				validatorRequired.source = this;
 				validatorRequired.property = "text";
 				validatorRequired.required = _required;

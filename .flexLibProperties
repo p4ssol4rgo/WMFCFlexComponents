@@ -21,6 +21,7 @@
     <classEntry path="org.wmfc.componentes.input.EmailTextBox"/>
     <classEntry path="org.wmfc.componentes.navigation.PaginationBar"/>
     <classEntry path="org.wmfc.componentes.navigation.events.PaginationEvent"/>
+    <classEntry path="org.wmfc.componentes.grid.columns.DefaultDataGridColumn"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

@@ -23,7 +23,7 @@ package org.wmfc.componentes.input
 		public override function validate():ValidationResultEvent {
 			if(emailValidator == null){
 				emailValidator = new EmailValidator();
-				emailValidator.requiredFieldError = _requiredMessage;
+				emailValidator.requiredFieldError = _requiredFieldError;
 				emailValidator.source = this;
 				emailValidator.property = "text";
 				emailValidator.required = _required;
