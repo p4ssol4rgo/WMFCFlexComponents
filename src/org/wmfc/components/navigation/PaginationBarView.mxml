@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<containers:Container xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					  xmlns:s="library://ns.adobe.com/flex/spark" 
+					  xmlns:mx="library://ns.adobe.com/flex/mx" 
+					  xmlns:containers="org.wmfc.components.containers.*"
+					  xmlns:components="org.wmfc.components.*"
+					  width="475" height="26"  xmlns:input="org.wmfc.components.input.*">
+	<fx:Script>
+		<![CDATA[
+			import org.wmfc.utils.Resource;
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<components:Button id="botFirst" y="0" height="100%" width="45" label="|&lt;" left="0" toolTip="{Resource.getValue(Resource.PAGINATIONBAR_FIRST_BUTTON_TOOLTIP)}"/>
+	<components:Button id="botPrevious" y="0" height="100%" width="45" label="&lt;" left="46" toolTip="{Resource.getValue(Resource.PAGINATIONBAR_PREV_BUTTON_TOOLTIP)}"/>
+	<components:Button id="botNext" y="0" height="100%" width="45" label="&gt;" right="46" toolTip="{Resource.getValue(Resource.PAGINATIONBAR_NEXT_BUTTON_TOOLTIP)}"/>
+	<components:Button id="botLast" y="0" height="100%" width="45" label="&gt;|" right="0" toolTip="{Resource.getValue(Resource.PAGINATIONBAR_LAST_BUTTON_TOOLTIP)}"/>
+	<input:NumericTextBox x="99" y="2" width="32" id="txtPage"/>
+	<components:Button id="botGoTo" x="139" y="0" width="30" height="100%" toolTip="{Resource.getValue(Resource.PAGINATIONBAR_GOTO_TOOLTIP)}" label="..."/>
+	<components:Label y="0" id="lblPages" verticalAlign="middle" text="0 of 0" height="100%" textAlign="center" left="177" right="99"/>
+</containers:Container>

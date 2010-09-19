@@ -1,4 +1,4 @@
-package org.wmfc.componentes.grid
+package org.wmfc.components.grid
 {
 	import mx.controls.DataGrid;
 	

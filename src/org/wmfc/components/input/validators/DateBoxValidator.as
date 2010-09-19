@@ -1,4 +1,4 @@
-package org.wmfc.componentes.input.validators
+package org.wmfc.components.input.validators
 {
 	import mx.events.ValidationResultEvent;
 	import mx.validators.DateValidator;

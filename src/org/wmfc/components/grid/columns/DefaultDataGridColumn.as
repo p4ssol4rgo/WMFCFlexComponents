@@ -1,4 +1,4 @@
-package org.wmfc.componentes.grid.columns
+package org.wmfc.components.grid.columns
 {
 	import mx.controls.dataGridClasses.DataGridColumn;
 	

@@ -1,4 +1,4 @@
-package org.wmfc.componentes.containers
+package org.wmfc.components.containers
 {
 	import flash.display.DisplayObject;
 	

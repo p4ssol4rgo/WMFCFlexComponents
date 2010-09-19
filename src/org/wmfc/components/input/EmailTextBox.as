@@ -1,4 +1,4 @@
-package org.wmfc.componentes.input
+package org.wmfc.components.input
 {
 	import mx.events.ValidationResultEvent;
 	import mx.validators.EmailValidator;

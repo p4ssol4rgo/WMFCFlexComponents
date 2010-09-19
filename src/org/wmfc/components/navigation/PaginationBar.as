@@ -1,10 +1,10 @@
-package org.wmfc.componentes.navigation
+package org.wmfc.components.navigation
 {
 	import flash.events.MouseEvent;
 	
 	import mx.events.FlexEvent;
 	
-	import org.wmfc.componentes.navigation.events.PaginationEvent;
+	import org.wmfc.components.navigation.events.PaginationEvent;
 	import org.wmfc.utils.Resource;
 	
 	[Event(name="goToPage", type="org.wmfc.componentes.navigation.events.PaginationEvent")]

@@ -1,9 +1,9 @@
-package org.wmfc.componentes.containers
+package org.wmfc.components.containers
 {
 	import mx.collections.ArrayCollection;
 	import mx.events.ValidationResultEvent;
 	
-	import org.wmfc.componentes.input.IValidate;
+	import org.wmfc.components.input.IValidate;
 	
 	import spark.events.ElementExistenceEvent;
 	

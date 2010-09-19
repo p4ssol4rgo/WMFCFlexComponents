@@ -1,4 +1,4 @@
-package org.wmfc.componentes
+package org.wmfc.components
 {
 	import spark.components.Button;
 	

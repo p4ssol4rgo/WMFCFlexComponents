@@ -1,4 +1,4 @@
-package org.wmfc.componentes.input
+package org.wmfc.components.input
 {
 	import flash.events.FocusEvent;
 	import flash.events.KeyboardEvent;
@@ -8,7 +8,7 @@ package org.wmfc.componentes.input
 	import mx.controls.DateField;
 	import mx.events.ValidationResultEvent;
 	
-	import org.wmfc.componentes.input.validators.DateBoxValidator;
+	import org.wmfc.components.input.validators.DateBoxValidator;
 	import org.wmfc.utils.NumberUtils;
 	import org.wmfc.utils.Resource;
 	import org.wmfc.utils.StringUtils;

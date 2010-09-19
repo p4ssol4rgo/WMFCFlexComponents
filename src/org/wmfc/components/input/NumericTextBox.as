@@ -1,4 +1,4 @@
-package org.wmfc.componentes.input
+package org.wmfc.components.input
 {
 	import flash.events.FocusEvent;
 	import flash.events.TextEvent;
@@ -8,7 +8,7 @@ package org.wmfc.componentes.input
 	import mx.events.FlexEvent;
 	import mx.events.ValidationResultEvent;
 	
-	import org.wmfc.componentes.input.validators.NumericTextBoxValidator;
+	import org.wmfc.components.input.validators.NumericTextBoxValidator;
 	import org.wmfc.utils.Resource;
 	import org.wmfc.utils.StringUtils;
 	import org.wmfc.utils.formatters.NumericFormatter;

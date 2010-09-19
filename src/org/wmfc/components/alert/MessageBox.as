@@ -1,4 +1,4 @@
-package org.wmfc.componentes.alert
+package org.wmfc.components.alert
 {
 	import flash.display.Sprite;
 	

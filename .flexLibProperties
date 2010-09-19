@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties includeAllClasses="true" version="3">
   <includeClasses>
-    <classEntry path="org.wmfc.componentes.containers.Window"/>
-    <classEntry path="org.wmfc.componentes.input.DateBox"/>
-    <classEntry path="org.wmfc.componentes.input.IValidate"/>
-    <classEntry path="org.wmfc.componentes.input.ComboBox"/>
-    <classEntry path="org.wmfc.componentes.Button"/>
-    <classEntry path="org.wmfc.componentes.Label"/>
-    <classEntry path="org.wmfc.componentes.cursor.Cursor"/>
-    <classEntry path="org.wmfc.componentes.containers.ContainerValidator"/>
-    <classEntry path="org.wmfc.componentes.containers.ValidationResult"/>
-    <classEntry path="org.wmfc.componentes.input.PassWordTextBox"/>
-    <classEntry path="org.wmfc.componentes.containers.Container"/>
-    <classEntry path="org.wmfc.componentes.Image"/>
-    <classEntry path="org.wmfc.componentes.input.CapsLockToolTip"/>
-    <classEntry path="org.wmfc.componentes.input.events.PassWordTextBoxEvent"/>
-    <classEntry path="org.wmfc.componentes.grid.DataGrid"/>
-    <classEntry path="org.wmfc.componentes.navigation.PaginationBarView"/>
-    <classEntry path="org.wmfc.componentes.input.NumericTextBox"/>
-    <classEntry path="org.wmfc.componentes.input.EmailTextBox"/>
-    <classEntry path="org.wmfc.componentes.navigation.PaginationBar"/>
-    <classEntry path="org.wmfc.componentes.navigation.events.PaginationEvent"/>
-    <classEntry path="org.wmfc.componentes.grid.columns.DefaultDataGridColumn"/>
+    <classEntry path="org.wmfc.components.containers.Window"/>
+    <classEntry path="org.wmfc.components.input.DateBox"/>
+    <classEntry path="org.wmfc.components.input.IValidate"/>
+    <classEntry path="org.wmfc.components.input.ComboBox"/>
+    <classEntry path="org.wmfc.components.Button"/>
+    <classEntry path="org.wmfc.components.Label"/>
+    <classEntry path="org.wmfc.components.cursor.Cursor"/>
+    <classEntry path="org.wmfc.components.containers.ContainerValidator"/>
+    <classEntry path="org.wmfc.components.containers.ValidationResult"/>
+    <classEntry path="org.wmfc.components.input.PassWordTextBox"/>
+    <classEntry path="org.wmfc.components.containers.Container"/>
+    <classEntry path="org.wmfc.components.Image"/>
+    <classEntry path="org.wmfc.components.input.CapsLockToolTip"/>
+    <classEntry path="org.wmfc.components.input.events.PassWordTextBoxEvent"/>
+    <classEntry path="org.wmfc.components.grid.DataGrid"/>
+    <classEntry path="org.wmfc.components.navigation.PaginationBarView"/>
+    <classEntry path="org.wmfc.components.input.NumericTextBox"/>
+    <classEntry path="org.wmfc.components.input.EmailTextBox"/>
+    <classEntry path="org.wmfc.components.navigation.PaginationBar"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

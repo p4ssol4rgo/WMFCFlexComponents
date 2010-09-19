@@ -1,4 +1,4 @@
-package org.wmfc.componentes.input
+package org.wmfc.components.input
 {
 	import flash.events.FocusEvent;
 	import flash.events.KeyboardEvent;
@@ -8,8 +8,8 @@ package org.wmfc.componentes.input
 	import mx.managers.PopUpManager;
 	
 	import org.wmfc.assets.defaultImages.DefaultImages;
-	import org.wmfc.componentes.Image;
-	import org.wmfc.componentes.input.events.PassWordTextBoxEvent;
+	import org.wmfc.components.Image;
+	import org.wmfc.components.input.events.PassWordTextBoxEvent;
 	
 	import spark.components.SkinnableContainer;
 

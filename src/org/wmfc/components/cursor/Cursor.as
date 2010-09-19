@@ -1,4 +1,4 @@
-package org.wmfc.componentes.cursor
+package org.wmfc.components.cursor
 {
 	import flash.display.DisplayObject;
 	

@@ -1,4 +1,4 @@
-package org.wmfc.componentes.input.events
+package org.wmfc.components.input.events
 {
 	import flash.events.Event;
 	

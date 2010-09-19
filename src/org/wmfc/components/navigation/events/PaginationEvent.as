@@ -1,4 +1,4 @@
-package org.wmfc.componentes.navigation.events
+package org.wmfc.components.navigation.events
 {
 	import flash.events.Event;
 	
