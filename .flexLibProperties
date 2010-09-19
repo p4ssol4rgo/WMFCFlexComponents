@@ -20,6 +20,7 @@
     <classEntry path="org.wmfc.components.input.NumericTextBox"/>
     <classEntry path="org.wmfc.components.input.EmailTextBox"/>
     <classEntry path="org.wmfc.components.navigation.PaginationBar"/>
+    <classEntry path="org.wmfc.components.input.MaskedTextBox"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
