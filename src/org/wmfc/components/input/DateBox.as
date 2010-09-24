@@ -229,6 +229,7 @@ package org.wmfc.components.input
 			super();
 			super.formatString = defaultInputFormat;
 			this.yearNavigationEnabled = true;
+			this.editable = true;
 		}
 		
 		protected override function childrenCreated():void {

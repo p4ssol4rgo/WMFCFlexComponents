@@ -203,12 +203,7 @@ package org.wmfc.components.input
 		}
 		
 		protected function init(event:FlexEvent):void {
-			
-			formatValue(_allowNulls ? Number.NaN : 0);
-			
-			if(_required) {
-				validate();
-			}
+			commit();
 		}
 		
 		protected function on_focusIN(event:FocusEvent):void {
@@ -351,10 +346,11 @@ package org.wmfc.components.input
 			
 			if(_numericFormatter == null) {
 				_numericFormatter = new NumericFormatter();
-				_numericFormatter.decimalPlaces = _decimalPlaces;
-				_numericFormatter.decimalSeparator = _decimalSeparator;
-				_numericFormatter.thousandSeparator = _groupDigits ? _thousandSeparator : "";
 			}
+			
+			_numericFormatter.decimalPlaces = _decimalPlaces;
+			_numericFormatter.decimalSeparator = _decimalSeparator;
+			_numericFormatter.thousandSeparator = _groupDigits ? _thousandSeparator : "";
 			
 			this.text = _numericFormatter.format(val);
 		}
@@ -374,6 +370,14 @@ package org.wmfc.components.input
 			}
 			
 			this.text = str;
+		}
+		
+		public function commit():void {
+			formatValue(getValue());
+			
+			if(_required) {
+				validate();
+			}
 		}
 
 	}

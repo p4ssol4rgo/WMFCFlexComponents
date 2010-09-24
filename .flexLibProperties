@@ -21,6 +21,8 @@
     <classEntry path="org.wmfc.components.input.EmailTextBox"/>
     <classEntry path="org.wmfc.components.navigation.PaginationBar"/>
     <classEntry path="org.wmfc.components.input.MaskedTextBox"/>
+    <classEntry path="org.wmfc.components.grid.columns.DateTimeDataGridColumn"/>
+    <classEntry path="org.wmfc.components.grid.columns.NumericDataGridColumn"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

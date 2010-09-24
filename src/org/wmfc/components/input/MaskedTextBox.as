@@ -129,9 +129,11 @@ package org.wmfc.components.input
 		}
 		public function set inputMask(s:String) : void
 		{
-			_inputMask = s;
-			bMaskUpdated = true;
-			invalidateDisplayList();
+			if(s != _inputMask) {
+				_inputMask = s;
+				bMaskUpdated = true;
+				invalidateDisplayList();
+			}
 		}
 		
 		/**
@@ -416,6 +418,11 @@ package org.wmfc.components.input
 				
 				_working = [];
 				var s:String = _inputMask;
+				
+				if(s == null) {
+					return;
+				}
+				
 				for(var i:int=0; i < s.length; i++) {
 					var c:String = s.charAt(i);
 					if( isMask(c) ) {
