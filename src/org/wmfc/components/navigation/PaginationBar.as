@@ -66,8 +66,11 @@ package org.wmfc.components.navigation
 			
 			botFirst.enabled = (_page > 1);
 			botPrevious.enabled = (_page > 1);
-			botNext.enabled = (!_showTotalPages || _page < _totalPages);
-			botLast.enabled = (!_showTotalPages || _page < _totalPages);
+			botNext.enabled = _page > 0 && (!_showTotalPages || _page < _totalPages);
+			botLast.enabled = _page > 0 && (!_showTotalPages || _page < _totalPages);
+			
+			botGoTo.enabled = 
+				txtPage.enabled = _page > 0;
 			
 			lblPages.text = _page + _pageOfPageLabel + _totalPages;
 		}

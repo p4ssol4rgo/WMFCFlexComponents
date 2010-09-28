@@ -71,5 +71,13 @@ package org.wmfc.components.alert
 			
 			return show(message, title, MessageBox.YES|MessageBox.NO, null, callBackFunction, DefaultImages.icoConfirmation, defaultButton);
 		}
+		
+		public static function showQuestionCancel(message:String, title:String="", callBackFunction:Function=null, defaultButton:uint=mx.controls.Alert.CANCEL):MessageBox {
+			if(title == "") {
+				title = _defaultQuestionTitle;
+			}
+			
+			return show(message, title, MessageBox.YES|MessageBox.NO|MessageBox.CANCEL, null, callBackFunction, DefaultImages.icoConfirmation, defaultButton);
+		}
 	}
 }

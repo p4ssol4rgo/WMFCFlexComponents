@@ -23,6 +23,10 @@
     <classEntry path="org.wmfc.components.input.MaskedTextBox"/>
     <classEntry path="org.wmfc.components.grid.columns.DateTimeDataGridColumn"/>
     <classEntry path="org.wmfc.components.grid.columns.NumericDataGridColumn"/>
+    <classEntry path="org.wmfc.components.grid.pagedDataGrid.PagedDataGridView"/>
+    <classEntry path="org.wmfc.components.grid.pagedDataGrid.PagedDataGrid"/>
+    <classEntry path="org.wmfc.components.containers.ViewStack"/>
+    <classEntry path="org.wmfc.components.containers.Module"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
