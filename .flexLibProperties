@@ -27,6 +27,10 @@
     <classEntry path="org.wmfc.components.grid.pagedDataGrid.PagedDataGrid"/>
     <classEntry path="org.wmfc.components.containers.ViewStack"/>
     <classEntry path="org.wmfc.components.containers.Module"/>
+    <classEntry path="org.wmfc.components.containers.Panel"/>
+    <classEntry path="org.wmfc.components.navigation.Accordion"/>
+    <classEntry path="org.wmfc.components.navigation.TreeView"/>
+    <classEntry path="org.wmfc.components.navigation.NavigatorItemView"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

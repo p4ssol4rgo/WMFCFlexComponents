@@ -72,7 +72,7 @@ package org.wmfc.components.navigation
 			botGoTo.enabled = 
 				txtPage.enabled = _page > 0;
 			
-			lblPages.text = _page + _pageOfPageLabel + _totalPages;
+			lblPages.text = _page + " " + _pageOfPageLabel + " " + _totalPages;
 		}
 		
 		protected function botFirst_onClick(event:MouseEvent):void {
