@@ -54,7 +54,7 @@ package org.wmfc.components.input
 		public function TextBox()
 		{
 			super();
-			this.addEventListener(FlexEvent.CREATION_COMPLETE, init);
+			this.addEventListener(FlexEvent.CREATION_COMPLETE, init, false, 0, true);
 		}
 		
 		protected function init(event:FlexEvent):void {

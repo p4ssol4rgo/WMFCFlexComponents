@@ -1,6 +1,9 @@
 package org.wmfc.components.grid.pagedDataGrid
 {
+	import flash.events.MouseEvent;
+	
 	import mx.collections.ArrayCollection;
+	import mx.events.ListEvent;
 	
 	import org.wmfc.components.navigation.events.PaginationEvent;
 
@@ -98,10 +101,22 @@ package org.wmfc.components.grid.pagedDataGrid
 			
 			paginationBar.addEventListener(PaginationEvent.GO_TO_PAGE, paginationBar_onPageSearch, false, 0, true);
 			
+			dataGrid.doubleClickEnabled = true;
+			dataGrid.addEventListener(ListEvent.CHANGE, dataGrid_onSelectedItemChange, false, 0, true);
+			dataGrid.addEventListener(MouseEvent.DOUBLE_CLICK, dataGrid_onDoubleClick, false, 0, true);
+			
 			commit();
 		}
 		
 		protected function paginationBar_onPageSearch(event:PaginationEvent):void {
+			this.dispatchEvent(event);
+		}
+		
+		protected function dataGrid_onSelectedItemChange(event:ListEvent):void {
+			this.dispatchEvent(event);
+		}
+		
+		protected function dataGrid_onDoubleClick(event:MouseEvent):void {
 			this.dispatchEvent(event);
 		}
 	}

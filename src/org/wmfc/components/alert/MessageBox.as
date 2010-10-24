@@ -41,7 +41,7 @@ package org.wmfc.components.alert
 									defaultButtonFlag:uint = 0x4 /* Alert.OK */,
 									moduleFactory:IFlexModuleFactory = null):MessageBox {
 			
-			if(!pVez) {
+			if(pVez) {
 				init();
 				pVez = false;
 			}
